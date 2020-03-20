@@ -17,6 +17,11 @@ public class Main {
         //=========Exc 1
         // browserHistroy();
         //=========Exc
+        calcualtor();
+
+    }
+
+    private static void calcualtor() {
         ArrayDeque<Integer> calc = new ArrayDeque<>();
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
@@ -39,7 +44,6 @@ public class Main {
 
         }
         System.out.print(calc.peek());
-
     }
 
     private static void browserHistroy() {
